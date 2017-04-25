@@ -1,5 +1,6 @@
 from flask import Flask, request
 
+
 application = Flask(__name__)
 
 def joinNewsletter ( f_name, l_name, email ):
